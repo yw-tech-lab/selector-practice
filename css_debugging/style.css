@@ -1,0 +1,33 @@
+* {
+  font-family: "Lato";
+  background-color: lavender;
+}
+
+h1{
+  text-align: center;
+  color: plum;
+}
+
+h2 {
+  margin: 4rem 0 0 0;
+}
+
+.instructions{
+  text-align: cente4r;
+}
+
+div.part1-selector div {
+  color: red;
+}
+
+div#part2-container ul {
+  color: skyblue;
+}
+
+div#part3-container {
+  border: 2px dashed blue;
+}
+
+div#part4-container ul p {
+  color: pink;
+}
