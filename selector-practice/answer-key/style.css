@@ -27,3 +27,16 @@
 #part2 section + p {
     color: green;
 }
+
+#part3 > ul {
+    border: dashed 5px black;
+    padding: 10px;
+}
+
+#part4 ul ul li {
+    color: blue;
+}
+
+#part4 p:nth-of-type(even) {
+    color: hotpink;
+}
