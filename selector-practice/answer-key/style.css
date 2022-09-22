@@ -1,0 +1,29 @@
+* {
+  font-family: "Lato";
+  background-color: lavender;
+}
+
+#part1 p {
+    color: red;
+}
+
+#part1 li {
+    color: purple;
+}
+
+#part1 .accent {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#part2 > img {
+    border: solid 5px red;
+}
+#part2 section img {
+    border: solid 5px blue;
+    margin-right: 10px;
+}
+
+#part2 section + p {
+    color: green;
+}

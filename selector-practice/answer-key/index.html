@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Combinator Selector Debugging Activity</title>
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
+  <script src="myscripts.js"></script>
+</head>
+
+<body>
+  <h1> CSS Selector/Debugging Activity </h1>
+  
+  <p> Your Name: </p>
+
+  <div class="instructions">
+        <h2>Instructions:</h2>
+        <p> 
+            In this activity, you are given two folders, an answer key folder and the activity folder.
+            Your goal is to debug (find and fix the errors!) in the CSS file from the activity folder
+            so that the output page looks like the page from the answer key folder.
+        </p>
+        <ul>
+            <li>Have the answer key page out so you can see how your final page needs to look like and you can see as
+                reference. </li>
+            <li>There should be at least one bug in each part. </li>
+            <li>Stuck? Use Google and W3Schools! <br>
+                <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank"> W3Schools Selectors Resource</a>
+            </li>
+        </ul>
+    </div>
+
+    <!----- Don't need to make any changes above this line ----->
+
+
+
+    <!--------------
+        PART 1
+    ---------------->
+    <section>
+        <h2>Part 1</h2>
+
+        <div id="part1">
+            <p>This line should be in red. </p>
+            <ul>
+                <li> This list item should be in purple. </li>
+                <li> This list item should be in purple. </li>
+                <li class="accent"> This list item should be purple, bolded, and in all caps.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--------------
+        PART 2
+    ---------------->
+    <section>
+        <h2>Part 2</h2>
+
+        <div id="part2">
+            <p>This image should have a red border:</p>
+            <img src="https://picsum.photos/id/1002/610/200" alt="first image" />
+            
+            <p>These images should have a blue border and some margin between them:</p>
+            <section>
+                <img src="https://picsum.photos/id/1018/200/200" alt="first image" />
+                <img src="https://picsum.photos/id/1043/200/200" alt="first image" />
+                <img src="https://picsum.photos/id/1044/200/200" alt="first image" />
+            </section>
+        
+            <p>This line should be green.</p>
+        </div>
+    </section>
+
+
+    <!--------------
+        PART 3
+    ---------------->
+    <section>
+        <h2>Part 3</h2>
+
+        <div id="part3">
+            <p>Create a border with a blue dashed line around the list below. </p>
+            <ul>
+                <li>This list item should be inside the border.
+                    <ul>
+                        <li>This child item should be inside the border. </li>
+                    </ul>
+                </li>
+                <li>This list item should be inside the border. </li>
+                <li>This list item should be inside the border. </li>
+                <li>This list item should be inside the border. </li>
+            </ul>
+    
+            <p> This line should not be included in the border. </p>
+            <p> This line should not be included in the border. </p>
+            <p> This line should not be included in the border. </p>
+            <p> This line should not be included in the border. </p>
+        </div>
+    </section>
+
+    <!--------------
+        PART 4
+    ---------------->
+    <section>
+        <h2>Part 4</h2>
+
+        <p>
+            Make the list item inside the inner list red. 
+            Then make every other p tag pink.
+        </p>
+        <div id="part4">
+            <ul>
+                <li>This list item should be in black.
+                    <ul>
+                        <li>This child item should be in red.</li>
+                    </ul>
+                </li>
+                <li>This list item should be in black.</li>
+                <li>This list item should be in black.</li>
+                <li>This list item should be in black.</li>
+            </ul>
+        
+            <p>Make this line black.</p>
+            <p>Make this line pink.</p>
+            <p>Make this line black.</p>
+            <p>Make this line pink.</p>
+        </div>
+    </section>
+
+</body>
+</html>
