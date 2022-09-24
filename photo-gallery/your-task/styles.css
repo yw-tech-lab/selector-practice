@@ -1,5 +1,59 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat_Alternates/MontserratAlternates-Black.ttf),
+    url(Montserrat_Alternates/MontserratAlternates-Bold.ttf);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 /* Your code here */
+html{
+    display: block;
+}
+
+body{
+    margin: 0px;
+    background-color: #F0F0F0;
+}
+
+header{
+    background-color: #FFD400;
+    padding: 50px;
+}
+
+h1{
+    font-family: Montserrat
+
+}
+
+section{
+    display: inline-block;
+    border: lightgray solid 1px;
+    max-width: 300px;
+    margin: 40px 20px 20px 40px;
+    border-radius: 3px;
+    transition: .65s;
+    transform: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section img{
+    margin: 0px;
+}
+
+section p{
+    margin-top: -2px;
+    margin-bottom: 0;
+    background-color: white;
+    padding: 15px 25px 25px 10px;
+}
+
+section:hover{
+    transform: rotate(5deg);
+    transition: .65s;
+    filter: saturate(1.5);
+}
+
